@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/info_background">
+
+    <include
+        android:id="@+id/MainActivity_Layout_Google"
+        layout="@layout/fragment_login"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/MainActivity_LinearLayout_Menu"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        android:id="@+id/MainActivity_Layout_Weekly"
+        layout="@layout/fragment_weekly"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/MainActivity_LinearLayout_Menu"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        layout="@layout/fragment_share"
+        android:id="@+id/MainActivity_Layout_Share"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/MainActivity_LinearLayout_Menu"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        layout="@layout/fragment_info"
+        android:id="@+id/MainActivity_Layout_Info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/MainActivity_LinearLayout_Menu"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/MainActivity_LinearLayout_Menu"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="4"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/MainActivity_ImageView_Google"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_google_not_select" />
+
+        <ImageView
+            android:id="@+id/MainActivity_ImageView_Weekly"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_weekly_not_select" />
+
+        <ImageView
+            android:id="@+id/MainActivity_ImageView_Share"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_share_not_select" />
+
+        <ImageView
+            android:id="@+id/MainActivity_ImageView_Info"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_info_not_select" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

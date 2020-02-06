@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "337620629703",
+    "firebase_url": "https://summerproject-32e02.firebaseio.com",
+    "project_id": "summerproject-32e02",
+    "storage_bucket": "summerproject-32e02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337620629703:android:e3390a61b3e0b7a5",
+        "android_client_info": {
+          "package_name": "com.example.user.summerproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337620629703-77ql37gjcui2dknck0vfcprsi4dgndfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.summerproject",
+            "certificate_hash": "bc348b27b037a35431fa8a7c1366520e1497827d"
+          }
+        },
+        {
+          "client_id": "337620629703-r0n518dkeebou8bkjhm0osfunklofsid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.summerproject",
+            "certificate_hash": "ce09a3c6f8b75b3960fc6be411f574fa1b82d7c1"
+          }
+        },
+        {
+          "client_id": "337620629703-ipvdi3i04cv7bigb3cgiini35ukqleue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUyjpBqkaHts38ra9CRNuKAPDCKG2a1EU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337620629703-ipvdi3i04cv7bigb3cgiini35ukqleue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
