@@ -22,6 +22,7 @@
 
 #### share page
 <img src="https://user-images.githubusercontent.com/46768752/127725458-579ce912-b134-4840-8a99-c250828a6a42.png" width='200'>
+
 - 친구부르기 버튼: 시간표를 중학하고 싶은 친구 선택
 - 합치기 버튼: 시간표 중첩하기
 - 중첩 원리: 색이 칠해지는 우선순위는 다음과 같습니다.
